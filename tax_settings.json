@@ -1,0 +1,68 @@
+{
+  "year": 2026,
+  "premium_rates": {
+    "overtime": 0.5,
+    "night": 0.5,
+    "holiday_le8": 0.5,
+    "holiday_gt8": 1.0
+  },
+  "tax": {
+    "local_income_tax_multiplier": 0.1,
+    "income_tax_brackets": [
+      {
+        "up_to": 14000000,
+        "rate": 0.06
+      },
+      {
+        "up_to": 50000000,
+        "rate": 0.15
+      },
+      {
+        "up_to": 88000000,
+        "rate": 0.24
+      },
+      {
+        "up_to": 150000000,
+        "rate": 0.35
+      },
+      {
+        "up_to": 300000000,
+        "rate": 0.38
+      },
+      {
+        "up_to": 500000000,
+        "rate": 0.4
+      },
+      {
+        "up_to": 1000000000,
+        "rate": 0.42
+      },
+      {
+        "up_to": null,
+        "rate": 0.45
+      }
+    ]
+  },
+  "insurance_rates": {
+    "national_pension": 0.045,
+    "health_insurance": 0.03545,
+    "long_term_care": 0.00459,
+    "employment_insurance": 0.009
+  },
+  "personal_deduction_tabs": [
+    {
+      "id": "ded_1",
+      "label": "개인공제1"
+    },
+    {
+      "id": "ded_2",
+      "label": "개인공제2"
+    },
+    {
+      "id": "ded_3",
+      "label": "개인공제3"
+    }
+  ],
+  "column_label_overrides": {},
+  "hidden_columns": []
+}
